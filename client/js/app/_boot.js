@@ -17,3 +17,6 @@ document.querySelector("#btn-apaga").onclick = financaController.apaga.bind(
 document.querySelector("#btn-filtro").onclick = financaController.filtra.bind(
   financaController
 );
+document.querySelector("#btn-limpar").onclick = financaController.limpar.bind(
+  financaController
+);
